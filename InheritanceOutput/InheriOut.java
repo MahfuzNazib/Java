@@ -45,7 +45,7 @@ class Third extends First
 		System.out.println("Empty Third");
 	}
 	public Third(int a){
-		System.out.println("1-Third");
+		System.out.println("1-Third");1
 	}
 	public Third(int a, int b){
 		this( );
@@ -57,6 +57,6 @@ class BonusTask{
 		Third th = new Third(10,20);
 		Second sc = new Second( );
 		First f = new First( );
-		Third thr = new Third(10);
+		Third thr = new Third(10);*
 	}
 }
